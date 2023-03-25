@@ -1,0 +1,56 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  min-width: 140vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .bg-container {
+    width: 100vw;
+  }
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-weight: 700;
+  font-size: 40px;
+}
+.input-container {
+  display: flex;
+  border: solid 1px #7b8794;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 60%;
+}
+.logo {
+  height: 24px;
+  align-self: center;
+}
+.inputEl {
+  background-color: transparent;
+
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+.app-list-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
